@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+    --myPrimaryColor: #ffa500;
+    --mySecondaryColor: #64748b;
+    --myLightOrange: #f1dabf;
+    --myDarkGray: #1a1f25;
+    --myLightGray: #272c35;
+}
+
+.container {
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+@layer utilities {
+
+    .blackcoffee {
+        filter: drop-shadow(50px 10px 15px #0f1115);
+    }
+
+    .blackcoffee2 {
+        filter: drop-shadow(10px 10px 10px #272c35)
+    }
+}
